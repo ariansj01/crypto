@@ -1,0 +1,29 @@
+.AiChatCountainer{
+    // position: relative;
+    width: 100%;
+    :where(.css-dev-only-do-not-override-161f05s).ant-form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70vh;
+    }
+    :where(.css-dev-only-do-not-override-161f05s).ant-form-item .ant-form-item-control-input {
+        width: 165%;
+    }
+    .result{
+        :nth-child(even){
+            direction: rtl;
+        }
+        // :nth-child(odd){
+        //     direction: ltr;
+        // }
+        p{
+            span{
+                margin: 5px;
+                padding: 5px;
+                border-radius: 5px;
+                background-color: $dashColor;
+            }
+        }
+    }
+}

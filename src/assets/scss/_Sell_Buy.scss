@@ -1,0 +1,47 @@
+:where(.css-dev-only-do-not-override-161f05s).ant-input-number-disabled .ant-input-number-input, :where(.css-dev-only-do-not-override-161f05s).ant-input-number-readonly .ant-input-number-input{
+    color:$text;
+}
+.css-ptdwpq-MuiPaper-root-MuiAppBar-root{
+    border: 1px solid $secondColor;
+    padding: 10px;
+    background-color: $dashColor !important;
+    border-radius: 10px;
+
+}
+
+.css-rp03ab{
+    background-color: #292735 !important;
+    border-radius: 10px;
+}
+
+.SellCurrencyContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .MuiBox-root{
+        // margin-top: 30vh;
+        background-color: #1E2026 !important;
+        border-radius: 10px;
+        .MuiTypography-body1{
+            .content{
+                .col{
+                    height: 400px;
+                    overflow-y: auto;
+                    .CurrencyItem{
+                        margin-top: 10px;
+                        justify-content: center;
+                        border: 1px solid $secondColor;
+                        align-items: center;
+                        background-color: #292735;
+                        gap: 20px;
+                        cursor: pointer;
+                    }
+                    // :hover{
+                    //     background-color: #363446;
+                    // }
+                }
+            }
+        }
+    }
+}

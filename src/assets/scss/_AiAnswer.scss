@@ -1,0 +1,40 @@
+.titleColor{
+    background-color: $dashColor;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 7px;
+    color: $secondColor;
+}
+.titleColor2{
+    background-color: $secondColor;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 7px;
+    color: $dashColor;
+    font-weight: bold;
+}
+.AiAnswerContainer{
+    .Analysis{
+        .investor_profile{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .investor_profile , .financial_health {
+            ul{
+                li{
+                    background-color: $dashColor;
+                    padding: 5px;
+                    margin: 5px;
+                    border-radius: 7px;
+                    color: $secondColor;
+                }
+            }
+        }
+    }
+    .narrative{
+        .span{
+
+        }
+    }
+}

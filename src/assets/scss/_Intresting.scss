@@ -1,0 +1,11 @@
+:where(.css-dev-only-do-not-override-161f05s).ant-empty .ant-empty-description{
+    color: $text
+}
+:where(.css-dev-only-do-not-override-161f05s).ant-card{
+    background-color: transparent ;
+    border: 1px solid $secondColor;
+    color: $text;
+}
+:where(.css-dev-only-do-not-override-161f05s).ant-card .ant-card-head-title{
+    color: $secondColor;
+}

@@ -1,0 +1,47 @@
+.WalletContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20vh;
+    .box{
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        background-color: $dashColor;
+        padding: 20px;
+        .items{
+            .item{
+                margin-top: 10px;
+            }
+        }
+        .body{
+            width: 400px;
+            .active{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                gap: 30px;
+                .SubActive{
+                    display: flex;
+                    width: 100%;
+                    :where(.css-dev-only-do-not-override-161f05s).ant-form{
+                    width: 100%;
+                    }
+                }
+                .SubDeActive{
+                    display: none;
+                }
+            }
+            .DeActive{
+                display: none;
+            }
+            
+        }
+    }
+}
+.TransitionToken:where(.css-dev-only-do-not-override-161f05s).ant-form{
+    margin-top: 20px;
+
+}

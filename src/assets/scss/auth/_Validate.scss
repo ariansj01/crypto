@@ -1,0 +1,17 @@
+
+.ValidateContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30vh;
+    p , h5:where(.css-dev-only-do-not-override-161f05s).ant-typography, div:where(.css-dev-only-do-not-override-161f05s).ant-typography-h5, div:where(.css-dev-only-do-not-override-161f05s).ant-typography-h5>textarea, :where(.css-dev-only-do-not-override-161f05s).ant-typography h5{
+        color: $text;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    p{
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,7 @@
+.QuestionContainer{
+    display: flex;
+ 
+    :where(.css-dev-only-do-not-override-161f05s).ant-radio-wrapper{
+        color: $text;
+    }
+}

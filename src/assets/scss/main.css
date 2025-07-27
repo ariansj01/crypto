@@ -1,0 +1,332 @@
+:where(.css-dev-only-do-not-override-161f05s).ant-menu-dark.ant-menu-root.ant-menu-inline, :where(.css-dev-only-do-not-override-161f05s).ant-menu-dark > .ant-menu.ant-menu-root.ant-menu-inline, :where(.css-dev-only-do-not-override-161f05s).ant-menu-dark.ant-menu-root.ant-menu-vertical, :where(.css-dev-only-do-not-override-161f05s).ant-menu-dark > .ant-menu.ant-menu-root.ant-menu-vertical {
+  border-radius: 10px;
+}
+
+:where(.css-dev-only-do-not-override-161f05s).ant-menu-dark .ant-menu-item-selected, :where(.css-dev-only-do-not-override-161f05s).ant-menu-dark > .ant-menu .ant-menu-item-selected, :where(.css-dev-only-do-not-override-161f05s).ant-btn-variant-solid {
+  background-color: #FFB200;
+  color: #181C14;
+}
+
+:where(.css-dev-only-do-not-override-161f05s).ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover {
+  background-color: #181C14;
+  color: #FFB200;
+}
+
+body {
+  background-color: #181C14 !important;
+  color: white !important;
+}
+
+:where(.css-dev-only-do-not-override-161f05s).ant-menu-dark, :where(.css-dev-only-do-not-override-161f05s).ant-menu-dark > .ant-menu {
+  background-color: #1B2430;
+}
+
+:where(.css-dev-only-do-not-override-161f05s).ant-menu-dark.ant-menu-inline .ant-menu-item, :where(.css-dev-only-do-not-override-161f05s).ant-menu-dark > .ant-menu.ant-menu-inline .ant-menu-item {
+  margin-bottom: 20px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1B2430;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FFB200;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  --bs-gutter-x: 0 ;
+}
+
+.containerDash {
+  gap: 50px;
+  margin-top: 10px;
+}
+.containerDash .Dashboard a {
+  text-decoration: none;
+}
+.containerDash .ShowCurrency .Market h5 {
+  color: #b0b0b0;
+}
+.containerDash .ShowCurrency .quickData {
+  width: 100%;
+}
+.containerDash .ShowCurrency .quickData .low small:first-child {
+  color: #d32f2f;
+}
+.containerDash .ShowCurrency .quickData .hight small:first-child {
+  color: #3e7b27;
+}
+.containerDash .ShowCurrency .quickData .low, .containerDash .ShowCurrency .quickData .hight, .containerDash .ShowCurrency .quickData .title {
+  color: #b0b0b0;
+}
+.containerDash .ShowCurrency .SearchBox input {
+  background-color: transparent;
+  color: #b0b0b0;
+  border: 1px solid #FFB200;
+  outline: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 995px) {
+  .ShowCurrency .quickData .DataQuickItem {
+    border-right: none !important;
+    border-bottom: 1px solid #b0b0b0;
+  }
+}
+.row {
+  --bs-gutter-x:0 !important;
+}
+
+table {
+  overflow-y: hidden;
+  --bs-table-color: #b0b0b0 !important;
+  --bs-table-bg: #181C14 !important;
+  --bs-table-border-color: #FFB200 !important;
+  --bs-table-striped-bg: #2c3034;
+  --bs-table-striped-color: #b0b0b0 !important;
+  color: #b0b0b0 !important;
+}
+table tbody .bodyTable td svg.bgGold {
+  color: #FFB200;
+}
+
+.TableContainer {
+  overflow-x: auto;
+}
+.TableContainer table {
+  width: 100%;
+  margin-top: 15px;
+}
+.TableContainer table thead tr {
+  background-color: #1B2430;
+  position: sticky;
+  top: 0;
+}
+.TableContainer table tbody tr {
+  margin-top: 20px;
+  padding-top: 20px;
+}
+.TableContainer table tbody tr td, .TableContainer table thead tr th {
+  padding: 5px;
+  border-bottom: 1px solid #FFB200;
+}
+.TableContainer table tbody tr:hover {
+  background-color: #222222;
+}
+.TableContainer table tbody tr:nth-child(odd) {
+  background-color: rgba(176, 176, 176, 0.1921568627);
+}
+
+:where(.css-dev-only-do-not-override-161f05s).ant-empty .ant-empty-description {
+  color: #b0b0b0;
+}
+
+:where(.css-dev-only-do-not-override-161f05s).ant-card {
+  background-color: transparent;
+  border: 1px solid #FFB200;
+  color: #b0b0b0;
+}
+
+:where(.css-dev-only-do-not-override-161f05s).ant-card .ant-card-head-title {
+  color: #FFB200;
+}
+
+:where(.css-dev-only-do-not-override-161f05s).ant-input-number-disabled .ant-input-number-input, :where(.css-dev-only-do-not-override-161f05s).ant-input-number-readonly .ant-input-number-input {
+  color: #b0b0b0;
+}
+
+.css-ptdwpq-MuiPaper-root-MuiAppBar-root {
+  border: 1px solid #FFB200;
+  padding: 10px;
+  background-color: #1B2430 !important;
+  border-radius: 10px;
+}
+
+.css-rp03ab {
+  background-color: #292735 !important;
+  border-radius: 10px;
+}
+
+.SellCurrencyContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.SellCurrencyContainer .MuiBox-root {
+  background-color: #1E2026 !important;
+  border-radius: 10px;
+}
+.SellCurrencyContainer .MuiBox-root .MuiTypography-body1 .content .col {
+  height: 400px;
+  overflow-y: auto;
+}
+.SellCurrencyContainer .MuiBox-root .MuiTypography-body1 .content .col .CurrencyItem {
+  margin-top: 10px;
+  justify-content: center;
+  border: 1px solid #FFB200;
+  align-items: center;
+  background-color: #292735;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.WalletContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20vh;
+}
+.WalletContainer .box {
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #1B2430;
+  padding: 20px;
+}
+.WalletContainer .box .items .item {
+  margin-top: 10px;
+}
+.WalletContainer .box .body {
+  width: 400px;
+}
+.WalletContainer .box .body .active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.WalletContainer .box .body .active .SubActive {
+  display: flex;
+  width: 100%;
+}
+.WalletContainer .box .body .active .SubActive :where(.css-dev-only-do-not-override-161f05s).ant-form {
+  width: 100%;
+}
+.WalletContainer .box .body .active .SubDeActive {
+  display: none;
+}
+.WalletContainer .box .body .DeActive {
+  display: none;
+}
+
+.TransitionToken:where(.css-dev-only-do-not-override-161f05s).ant-form {
+  margin-top: 20px;
+}
+
+.CurrencyContainer .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.CurrencyContainer .FullData .CurrencyInfo {
+  background-color: #1B2430;
+}
+
+.QuestionContainer {
+  display: flex;
+}
+.QuestionContainer :where(.css-dev-only-do-not-override-161f05s).ant-radio-wrapper {
+  color: #b0b0b0;
+}
+
+.titleColor {
+  background-color: #1B2430;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 7px;
+  color: #FFB200;
+}
+
+.titleColor2 {
+  background-color: #FFB200;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 7px;
+  color: #1B2430;
+  font-weight: bold;
+}
+
+.AiAnswerContainer .Analysis .investor_profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AiAnswerContainer .Analysis .investor_profile ul li, .AiAnswerContainer .Analysis .financial_health ul li {
+  background-color: #1B2430;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 7px;
+  color: #FFB200;
+}
+.AiChatCountainer {
+  width: 100%;
+}
+.AiChatCountainer :where(.css-dev-only-do-not-override-161f05s).ant-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70vh;
+}
+.AiChatCountainer :where(.css-dev-only-do-not-override-161f05s).ant-form-item .ant-form-item-control-input {
+  width: 165%;
+}
+.AiChatCountainer .result :nth-child(even) {
+  direction: rtl;
+}
+.AiChatCountainer .result p span {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #1B2430;
+}
+
+.ProfileCountainer .titleSec {
+  color: #FFB200;
+}
+
+:where(.css-dev-only-do-not-override-161f05s).ant-form-item .ant-form-item-label > label {
+  color: #b0b0b0;
+}
+
+.LoginFormContainer {
+  margin-top: 20px;
+}
+
+.ContainerParent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ValidateContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30vh;
+}
+.ValidateContainer p, .ValidateContainer h5:where(.css-dev-only-do-not-override-161f05s).ant-typography, .ValidateContainer div:where(.css-dev-only-do-not-override-161f05s).ant-typography-h5, .ValidateContainer div:where(.css-dev-only-do-not-override-161f05s).ant-typography-h5 > textarea, .ValidateContainer :where(.css-dev-only-do-not-override-161f05s).ant-typography h5 {
+  color: #b0b0b0;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.ValidateContainer p {
+  margin-top: 20px;
+}/*# sourceMappingURL=main.css.map */
