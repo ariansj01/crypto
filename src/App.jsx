@@ -9,7 +9,8 @@ import LoginPage from './auth/LoginPage';
 import Validate from './auth/Validate';
 import io from 'socket.io-client';
 import Contextariable from './context/AppContext';
-const socket = io('http://localhost:3001');
+const socket = io('https://crypto-2-gf95.onrender.com');
+// const socket = io('http://localhost:3001');
 
 
 const App = () => {
